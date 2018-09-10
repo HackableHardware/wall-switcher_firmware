@@ -25,4 +25,4 @@
 // Digital pin for capacitive sensor 4
 //#define CS_SWITCH4
 
-#endif //__PINOUT_H__
+#endif /* __PINOUT_H__ */

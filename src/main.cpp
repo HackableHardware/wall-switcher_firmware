@@ -7,9 +7,8 @@
  *
  */
 
-#include <Arduino.h>
-#include "pinout.h"
-#include "configuration.h"
+#include "deps.h"
+#include "config.h"
 
 void setup() {
     #ifdef CS_SWITCH1

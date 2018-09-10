@@ -6,9 +6,8 @@
  *
  *
  */
- 
-#include <Arduino.h>
-#include "pinout.h"
+
+#include "deps.h"
 
 void updateLEDState(int dimStart, int dimEnd, int dimStep) {
     // Adjust panel LED intensity

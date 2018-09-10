@@ -10,7 +10,8 @@
 #ifndef __CONFIGURATION_H__
 #define __CONFIGURATION_H__
 
-#include <CapacitiveSensor.h>
+// Fill dependencies
+#include "deps.h"
 
 //
 int dimStart = 0,
@@ -46,4 +47,4 @@ const int brightLEDLevel = 255;
 //
 void updateLEDState(int dimStart, int dimEnd, int dimStep);
 
-#endif // __CONFIGURATION_H__
+#endif /* __CONFIGURATION_H__ */
